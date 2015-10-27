@@ -28,8 +28,8 @@ import de.greenrobot.event.EventBus;
 public class NetworkService extends IntentService {
     private static final String TAG = NetworkService.class.getSimpleName();
 
-    private static String BASE_URL = "http://feature-code-test.skylark-cms.qa.aws.ostmodern.co.uk:8000/";
-    private static String SET_URL = "api/sets/";
+    private static String BASE_URL = "";
+    private static String SET_URL = "";
 
     public static final String STATUS_SUCCESS = "success";
     public static final String STATUS_FAILED = "failed";
